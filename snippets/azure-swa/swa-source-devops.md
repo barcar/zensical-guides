@@ -1,0 +1,2 @@
+   - **Source:** **Azure DevOps**. Choose **Organization**, **Project**, **Repository**, and **Branch** (for example `main`).
+   - **Build Details:** Pick a generic static-site preset or **Custom**. You will replace the generated build with Zensical, so the exact preset is only a placeholder.

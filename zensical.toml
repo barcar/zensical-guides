@@ -17,17 +17,26 @@ site_name = "Zensical Guides"
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "Practical methods, solutions, and approaches for using Zensical - notes that may help others building documentation sites."
 
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
 site_author = "BarCar"
 
+# Public URL of the documentation source repository (header link, stars/forks on GitHub).
+# Read more: https://zensical.org/docs/setup/repository/
+repo_url = "https://github.com/barcar/zensical-guides"
+repo_name = "barcar/zensical-guides"
+
+# GitHub edit/view links default to master; this repository uses main.
+# Read more: https://zensical.org/docs/setup/repository/#edit_uri
+edit_uri = "edit/main/docs/"
+
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-#site_url = "https://www.example.com/"
+site_url = "https://zensical-guides.hypercat.net/"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
@@ -36,6 +45,21 @@ site_author = "BarCar"
 copyright = """
 Copyright &copy; 2026 The authors
 """
+
+# Read more: https://zensical.org/docs/customization/#additional-css
+extra_css = ["stylesheets/extra.css"]
+
+# SuperFences parses ``` fenced code blocks; Highlight supplies syntax colors.
+# Read more: https://zensical.org/docs/setup/extensions/python-markdown-extensions/#superfences
+[project.markdown_extensions.pymdownx.highlight]
+pygments_lang_class = true
+# Required for per-line CSS on the GitHub SWA workflow snippet (token rows). Applies to all fenced blocks site-wide.
+line_spans = "code-line"
+
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
 # If you decide not to define a navigation here then Zensical will simply
@@ -55,10 +79,6 @@ Copyright &copy; 2026 The authors
 #
 # The path provided should be relative to the "docs_dir".
 #
-# Read more: https://zensical.org/docs/customization/#additional-css
-#
-#extra_css = ["stylesheets/extra.css"]
-
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
 #
@@ -122,13 +142,13 @@ features = [
     # will generate an edit button for the page. This works for common
     # repository hosting services.
     # https://zensical.org/docs/setup/repository/#content-actions
-    #"content.action.edit",
+    "content.action.edit",
 
     # If you have a repository configured and turn on this feature, Zensical
     # will generate a button that allows the user to view the Markdown
     # code for the current page.
     # https://zensical.org/docs/setup/repository/#content-actions
-    #"content.action.view",
+    "content.action.view",
 
     # Code annotations allow you to add an icon with a tooltip to your
     # code blocks to provide explanations at crucial points.

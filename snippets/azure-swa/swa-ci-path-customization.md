@@ -1,0 +1,1 @@
+Align branch filters (`on.push.branches` or `trigger`) with your default branch. If the Zensical project is not at the repository root, set the working directory for the build and deploy steps (see [build configuration](https://learn.microsoft.com/azure/static-web-apps/build-configuration) — use the **GitHub Actions** or **Azure Pipelines** tab).
