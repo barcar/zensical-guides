@@ -2,16 +2,7 @@
 
 Practical notes on using [Zensical](https://zensical.org/) to build documentation sites. This repository is **not** official Zensical documentation; it collects approaches and deployment patterns that worked in real projects. When something here disagrees with the manual, trust [Zensical’s documentation](https://zensical.org/docs/) first.
 
-**Browse the guides:** [https://zensical-guides.hypercat.net/](https://zensical-guides.hypercat.net/)
-
-## What you will find here
-
-| Topic | Description |
-| --- | --- |
-| [Azure Static Web Apps (GitHub)](https://github.com/barcar/zensical-guides/blob/main/docs/azure-static-web-app-github.md) | Connect a GitHub repo to Azure Static Web Apps and adjust the generated GitHub Actions workflow for `zensical build`. |
-| [Azure Static Web Apps (Azure DevOps)](https://github.com/barcar/zensical-guides/blob/main/docs/azure-static-web-app-devops.md) | Same idea for Azure Repos and Azure Pipelines (`azure-pipelines.yml`). |
-
-The [Zensical “Publish your site”](https://zensical.org/docs/publish-your-site/) page links to these Azure guides from its **Other** section.
+**Documentation:** [https://zensical-guides.hypercat.net/](https://zensical-guides.hypercat.net/) — deployment walkthroughs for Azure Static Web Apps (GitHub Actions and Azure Pipelines). The [Zensical “Publish your site”](https://zensical.org/docs/publish-your-site/) page links there from its **Other** section.
 
 ## Build the site locally
 
