@@ -49,17 +49,9 @@ Copyright &copy; 2026 The authors
 # Read more: https://zensical.org/docs/customization/#additional-css
 extra_css = ["stylesheets/extra.css"]
 
-# SuperFences parses ``` fenced code blocks; Highlight supplies syntax colors.
-# Read more: https://zensical.org/docs/setup/extensions/python-markdown-extensions/#superfences
-[project.markdown_extensions.pymdownx.highlight]
-pygments_lang_class = true
-# Required for per-line CSS on the GitHub SWA workflow snippet (token rows). Applies to all fenced blocks site-wide.
-line_spans = "code-line"
-
-[project.markdown_extensions.pymdownx.superfences]
-custom_fences = [
-  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
-]
+# Omit [project.markdown_extensions] so Zensical uses its full default PyMdown
+# stack (see zensical.config). A partial [project.markdown_extensions] table
+# replaces that entire default set, not merges with it.
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
 # If you decide not to define a navigation here then Zensical will simply
