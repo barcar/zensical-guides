@@ -1,1 +1,0 @@
-The workflow uses secrets such as `AZURE_STATIC_WEB_APPS_API_TOKEN_*` that Azure created when it linked the repository. You normally leave these as generated. If deployment fails with an authentication error, compare the Static Web App **deployment token** in the Azure portal with **GitHub → Settings → Secrets and variables → Actions**.

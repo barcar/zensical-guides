@@ -1,1 +1,0 @@
-   - **Source:** **GitHub**. Sign in when prompted, authorize **AzureAppService** if asked, then choose **Organization**, **Repository**, and **Branch** (for example `main`).

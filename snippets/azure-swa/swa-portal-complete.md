@@ -1,1 +1,0 @@
-Then select **Review + create**, wait for validation, and choose **Create**. When deployment finishes, open **Go to resource** and note the default site URL: `https://UNIQUE_NAME.azurestaticapps.net`.

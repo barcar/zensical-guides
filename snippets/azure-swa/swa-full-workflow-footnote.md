@@ -1,1 +1,0 @@
-The deploy section must point at the Zensical output: **`app_location`** is **`site`**, **`skip_app_build`** and **`skip_api_build`** are **`true`**, and **`output_location`** is empty so Azure uploads your pre-built static files.

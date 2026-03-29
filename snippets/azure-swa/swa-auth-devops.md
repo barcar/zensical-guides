@@ -1,1 +1,0 @@
-The `AzureStaticWebApp@0` task must receive the deployment token as **`$(deployment_token)`**. For a portal-linked Azure DevOps project, that variable is usually created for you as a secret. If the job fails for auth, check **Pipelines** settings and [deployment token management](https://learn.microsoft.com/azure/static-web-apps/deployment-token-management).

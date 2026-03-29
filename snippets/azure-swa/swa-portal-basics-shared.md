@@ -1,4 +1,0 @@
-   - **Subscription:** Your Azure subscription.
-   - **Resource group:** Create a new group or select an existing one.
-   - **Name:** A unique name for the app (it appears in the default hostname `https://UNIQUE_NAME.azurestaticapps.net`).
-   - **Plan type:** **Free** or **Standard** (the free tier is enough for a typical public documentation site).

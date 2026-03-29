@@ -1,1 +1,0 @@
-[Azure Static Web Apps (SWA)](https://azure.microsoft.com/products/app-service/static) also supports custom domains, authentication (including Microsoft Entra ID), and more—those topics are not covered here.
