@@ -18,5 +18,3 @@ If something here helps you, great. When in doubt, prefer the official sources b
 
 * [Azure Static Web Apps with GitHub](azure-static-web-app-github.md) - Azure SWA with a GitHub repo and GitHub Actions (linked from the official docs under “Other”).
 * [Azure Static Web Apps with Azure DevOps](azure-static-web-app-devops.md) - Same pattern with Azure Repos and Azure Pipelines.
-* [Feature showcase](feature-showcase.md) - The original Zensical template examples (admonitions, diagrams, math, and more), kept as a handy reference.
-* [Markdown in 5min](markdown.md) - A short Markdown syntax recap.
