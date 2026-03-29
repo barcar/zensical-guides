@@ -16,5 +16,5 @@ If something here helps you, great. When in doubt, prefer the official sources b
 
 ## Pages here
 
-* [Azure Static Web Apps with GitHub](azure-static-web-app-github.md) - Azure SWA with a GitHub repo and GitHub Actions (linked from the official docs under “Other”).
-* [Azure Static Web Apps with Azure DevOps](azure-static-web-app-devops.md) - Same pattern with Azure Repos and Azure Pipelines.
+* [Azure Static Web Apps with GitHub](azure-static-web-app-github.md) - Azure SWA with a GitHub repo and GitHub Actions.
+* [Azure Static Web Apps with Azure DevOps](azure-static-web-app-devops.md) - Azure SWA with Azure Repos and Azure Pipelines.
