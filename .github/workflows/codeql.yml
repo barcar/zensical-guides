@@ -1,5 +1,13 @@
 name: CodeQL
 
+# If you see two CodeQL runs for the same change, check GitHub Settings → Code
+# security and analysis → Code scanning: disable "Default setup" (or remove this
+# workflow) so only one CodeQL configuration is active.
+
+concurrency:
+  group: codeql-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   push:
     branches:
