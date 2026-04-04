@@ -11,7 +11,7 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Zensical Guides"
+site_name = "Hypercat Zensical Guides"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
@@ -22,12 +22,12 @@ site_description = "Practical methods, solutions, and approaches for using Zensi
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "BarCar"
+site_author = "Hypercat"
 
 # Public URL of the documentation source repository (header link, stars/forks on GitHub).
 # Read more: https://zensical.org/docs/setup/repository/
-repo_url = "https://github.com/barcar/zensical-guides"
-repo_name = "barcar/zensical-guides"
+repo_url = "https://github.com/hypercat-net/zensical-guides"
+repo_name = "hypercat-net/zensical-guides"
 
 # GitHub edit/view links default to master; this repository uses main.
 # Read more: https://zensical.org/docs/setup/repository/#edit_uri
@@ -43,7 +43,7 @@ site_url = "https://zensical-guides.hypercat.net/"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-Copyright &copy; 2026 The authors
+Copyright &copy; 2026 Hypercat
 """
 
 # Read more: https://zensical.org/docs/customization/#additional-css
