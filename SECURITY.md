@@ -4,4 +4,4 @@ Hypercat takes the security of our software products and services seriously, whi
 
 Please do not report security vulnerabilities through public GitHub issues.
 
-For security reporting information, locations, contact information, and policies, please send email directly to barcar@users.noreply.github.com.
+For security reporting information, locations, contact information, and policies, please send email directly to github@hypercat.net.

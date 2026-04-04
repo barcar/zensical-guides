@@ -12,7 +12,7 @@ If something here helps you, great. When in doubt, prefer the official sources b
 
 * **[Zensical](https://zensical.org/)** - Zensical project home and overview.
 * **[Zensical documentation](https://zensical.org/docs/)** - Zensical official documentation.
-* **[This site on GitHub](https://github.com/barcar/zensical-guides)** - Source, issues, and changes to these guides.
+* **[This site on GitHub](https://github.com/hypercat-net/zensical-guides)** - Source, issues, and changes to these guides.
 
 ## Pages here
 
