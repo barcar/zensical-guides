@@ -2,7 +2,7 @@
 icon: lucide/cloud-upload
 ---
 
-# Azure Static Web Apps with GitHub
+# Azure Static Web Apps with GitHub Actions
 
 This guide is for [Azure Static Web Apps](https://learn.microsoft.com/azure/static-web-apps/overview) when your source is in **GitHub** and deployment runs through **GitHub Actions** that Azure connects to the repository. It does not cover Azure DevOps or other Git hosts.
 
