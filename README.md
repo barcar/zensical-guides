@@ -1,8 +1,12 @@
 # Zensical Guides
 
+[![Documentation](https://github.com/barcar/zensical-guides/actions/workflows/docs.yml/badge.svg)](https://github.com/barcar/zensical-guides/actions/workflows/docs.yml) [![CodeQL](https://github.com/barcar/zensical-guides/actions/workflows/codeql.yml/badge.svg)](https://github.com/barcar/zensical-guides/actions/workflows/codeql.yml) [![License](https://img.shields.io/github/license/barcar/zensical-guides)](https://github.com/barcar/zensical-guides/blob/main/LICENSE) [![Docs](https://img.shields.io/badge/docs-zensical--guides.hypercat.net-8b5cf6)](https://zensical-guides.hypercat.net/)
+
 Practical notes on using [Zensical](https://zensical.org/) to build documentation sites. This repository is **not** official Zensical documentation; it collects approaches and deployment patterns that worked in real projects. When something here disagrees with the manual, trust [Zensical’s documentation](https://zensical.org/docs/) first.
 
 **Documentation:** [https://zensical-guides.hypercat.net/](https://zensical-guides.hypercat.net/) — deployment walkthroughs for Azure Static Web Apps (GitHub Actions and Azure Pipelines). The [Zensical “Publish your site”](https://zensical.org/docs/publish-your-site/) page links there from its **Other** section.
+
+[![BuyMeACoffee](https://raw.githubusercontent.com/barcar/buymeacoffee-badges/main/bmc-donate-white.svg)](https://buymeacoffee.com/barcar)
 
 ## Build the site locally
 
