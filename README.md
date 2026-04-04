@@ -1,6 +1,6 @@
 # Zensical Guides
 
-[![Documentation](https://github.com/barcar/zensical-guides/actions/workflows/docs.yml/badge.svg)](https://github.com/barcar/zensical-guides/actions/workflows/docs.yml) [![License](https://img.shields.io/github/license/barcar/zensical-guides)](https://github.com/barcar/zensical-guides/blob/main/LICENSE) [![Docs](https://img.shields.io/badge/docs-zensical--guides.hypercat.net-8b5cf6)](https://zensical-guides.hypercat.net/)
+[![Documentation](https://github.com/barcar/zensical-guides/actions/workflows/docs.yml/badge.svg)](https://github.com/barcar/zensical-guides/actions/workflows/docs.yml) [![Code scanning](https://img.shields.io/badge/code%20scanning-GitHub-1f883d?logo=github)](https://github.com/hypercat-net/zensical-guides/security/code-scanning) [![License](https://img.shields.io/github/license/barcar/zensical-guides)](https://github.com/barcar/zensical-guides/blob/main/LICENSE) [![Docs](https://img.shields.io/badge/docs-zensical--guides.hypercat.net-8b5cf6)](https://zensical-guides.hypercat.net/)
 
 Practical notes on using [Zensical](https://zensical.org/) to build documentation sites. This repository is **not** official Zensical documentation; it collects approaches and deployment patterns that worked in real projects. When something here disagrees with the manual, trust [Zensical’s documentation](https://zensical.org/docs/) first.
 
